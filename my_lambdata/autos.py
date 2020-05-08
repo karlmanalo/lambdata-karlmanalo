@@ -34,24 +34,24 @@ if __name__ == "__main__":
     car.advertise()
 
     car2 = Auto("Tesla", "Model S", 2020, "Blue", 4)
-    print(car2).make
-    print(car2).model
+    print(car2.make)
+    print(car2.model)
     car2.drive()
     car2.advertise()
 
     truck = Truck("Ford", "F150", 2020, "Blue", 4, bed_size="5x5")
-    print(truck).make
-    print(truck).model
-    print(truck).year
+    print(truck.make)
+    print(truck.model)
+    print(truck.year)
     truck.drive()
     truck.advertise()
     print(truck.bed_size)
 
     truck2 = Truck("Tesla", "Cybertuck", 2020, "Blue", 4, 
                     bed_size="10x10")
-    print(truck2).make
-    print(truck2).model
-    print(truck2).year
+    print(truck2.make)
+    print(truck2.model)
+    print(truck2.year)
     truck2.drive()
     truck2.advertise()
     print(truck2.bed_size)
